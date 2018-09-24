@@ -1,6 +1,6 @@
-package estruturaDeDados;
+package estruturaDeDados.vetor;
 
-public class estrutudaDadosMain {
+public class vetorMain {
 
 	public static void main(String[] args) {
 
