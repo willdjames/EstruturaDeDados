@@ -1,4 +1,4 @@
-package estruturaDeDados;
+package estruturaDeDados.vetor;
 
 public class Aluno {
 

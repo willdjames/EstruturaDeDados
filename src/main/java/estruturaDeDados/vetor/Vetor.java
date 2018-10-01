@@ -1,4 +1,4 @@
-package estruturaDeDados;
+package estruturaDeDados.vetor;
 
 import java.util.Arrays;
 
