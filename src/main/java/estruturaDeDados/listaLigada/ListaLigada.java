@@ -8,11 +8,14 @@ public class ListaLigada {
 	
 	
 	public void adicionaNoComeco(Object elemento) {
-		Celula celula = new Celula(elemento, primeira);
-		this.primeira = celula;
-		
-		if(totalElementos == 0) {
-			this.ultima = this.primeira;
+		if(this.totalElementos == 0) {
+			Celula nova = new Celula(elemento);
+			this.primeira = nova;
+			this.ultima = nova;
+		}else {
+			Celula nova = new Celula(elemento, this.primeira);
+			this.primeira.setAnterior(nova);
+			this.primeira = nova;
 		}
 		
 		this.totalElementos ++;
