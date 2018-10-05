@@ -18,6 +18,11 @@ public class Pilha {
 		return nomes.isEmpty();
 	}
 	
+	public String peek() {
+		return nomes.getLast().toString();
+	}
+	
+	
 	@Override
 	public String toString() {
 		return nomes.toString();
